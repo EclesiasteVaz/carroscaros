@@ -1,0 +1,19 @@
+hgroup
+{
+    width: fit-content;
+    padding: 5px;
+}
+
+hgroup hr
+{
+    width: 120px;
+    height: 3px;
+    border: none;
+    background-color: rgb(69, 128, 255);
+    border-radius: 8px;
+}
+
+.responsaveis{
+    width: 280px;
+    margin-top: 4px
+}

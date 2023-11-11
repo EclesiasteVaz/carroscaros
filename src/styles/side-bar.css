@@ -1,0 +1,138 @@
+.side-bar
+{
+    margin: auto;
+    width: 90%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+    border-bottom: 1px solid rgb(69, 128, 255);
+}
+
+.side-bar h1
+{
+    font-weight: bold;
+    color: rgb(69, 128, 255);
+    font-family: Arial;
+    font-size: 30pt;
+    margin: 0px;
+}
+
+.side-bar h1 span
+{
+    color: rgb(51, 53, 58);
+}
+
+.side-bar ul
+{
+    
+    width: fit-content;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+}
+
+
+
+.side-bar ul li a
+{
+    display: block;
+    text-decoration: none;
+    color: rgb(51, 53, 58);
+    text-align: center;
+    font-size: 14pt;
+    padding: 10px 0px 3px 0px;
+    margin:0px 16px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.4s;
+    font-weight: 400;
+}
+
+.side-bar ul li a:hover
+{
+    border-bottom: 5px solid rgb(69, 128, 255);
+    color: rgb(69, 128, 255);
+}
+
+.side-bar ul li a.in
+{
+    border-bottom: 5px solid rgb(69, 128, 255);
+}
+
+button.not-show{
+    display: none;
+}
+
+@media screen and (max-width:650px) {
+    .side-bar{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .not-show{
+        display: block;
+    }
+    .side-bar h1
+    {
+        width: fit-content;
+        font-size: 22pt;
+        text-align: left;
+        margin: 8px;
+        margin-right: auto;
+    }
+
+    .side-bar ul{
+        width: 360px;
+        margin: auto;
+        height: calc(100vh - 70vh);
+        padding: 10px 0px;
+        background-color: rgb(51, 53, 58);
+        display: block;
+    }
+
+    
+    .side-bar ul li a
+    {
+        display: block;
+        width: 300px;
+        height: 50px;
+        border-radius:3px;
+        color: rgb(226, 229, 236);
+        background-color: rgb(65, 67, 73);
+        margin: auto;
+        transition: all 0.4s;
+        font-weight: 400;
+    }
+    .side-bar ul li 
+    {
+        margin: 4px;
+    }
+
+    .side-bar ul li a.in
+    {
+        background-color: rgb(69, 128, 255);
+    }
+
+    .side-bar button.not-show{
+        display: block;
+        width: 100px;
+        height: 40px;
+        border: none;
+        background-color: rgb(226, 229, 236);
+        color: rgb(69, 128, 255);
+        margin-left: 60px;
+    }
+    .side-bar button.showed{
+        margin-left: -120px;
+    }
+    nav.not-show{
+        display: none;
+    }
+}

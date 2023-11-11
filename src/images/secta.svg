@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="70px" height="66px" viewBox="0 0 70 66" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="secta" transform="matrix(-4.371139E-08 -1 1 -4.371139E-08 1.5 64.5)">
+    <path d="M30.5 0L30.5 67" id="Line" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" />
+    <path d="M0 35L30.5 67" id="Line-3" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" />
+    <path d="M63 35L30.5 67" id="Line-2" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" />
+  </g>
+</svg>

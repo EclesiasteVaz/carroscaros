@@ -1,0 +1,32 @@
+/*estilização de todas as tags*/
+* {
+    /*para os pais não crescerem caso os filhos são mais grandes ou oucpam muito espço*/
+    box-sizing: border-box;
+    /*retirando os espçamento de dentro*/
+    padding:0px;
+    /*retirando a margem */
+    margin: 0px;
+    /*retirando as linhas dos links como eles ficam, com linhas e cores*/
+    text-decoration: none;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+body
+{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 7% 5% 10px 5%;
+}
+
+@media screen and (max-width:650px) {
+    body{
+        width:90%;
+        padding: 4px;
+        overflow-x: hidden;
+          
+    }   
+    
+}

@@ -1,0 +1,58 @@
+/*estilizando a tela de processamento e a sua animação*/
+
+.back-load
+{
+    /*ele ocupará toda a tela*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(55, 59, 59);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*os dois circulos teram o mesmo tamaho*/
+.circulo-azul, .circulo-branco
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px 4px;
+    position: relative;
+}
+
+.circulo-azul{
+    background-color: rgb(27, 159, 211);
+    animation-name: bolha-azul;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-delay: 0.6s;
+    animation-iteration-count: infinite;
+}
+
+.circulo-branco
+{
+    background-color: white;
+}
+
+/*animação de girar*/
+
+@keyframes bolha-azul {
+    from{
+        width: 30px;
+        height: 30px;
+        left: 0px;
+    }  
+    
+    to 
+    {
+        width: 10px;
+        height: 10px;
+        left: 60px;
+    }
+}

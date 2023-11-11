@@ -1,0 +1,69 @@
+.box-shearch
+{
+    width: 350px;
+    height: 450px;
+    background-color: rgb(252, 254, 255);
+    border-radius: 0px 0px 8px 8px;
+    padding:2px;
+    box-shadow: 2px 2px 15px rgb(192, 192, 192);
+}
+
+.header-box-shearch{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-box-shearch input{
+    display: block;
+    width: 320px;
+    height: 35px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    padding: 4px;
+}
+
+.header-box-shearch input::placeholder
+{
+    color: rgba(0, 0, 0, 0.712);
+}
+
+.header-box-shearch input:focus
+{
+    border-radius: 5px;
+    border: 1px solid rgb(54, 155, 214);
+    background-color: white;
+}
+
+.result-shearch{
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-shearch p{
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+@media screen and (max-width:650px) {
+    
+    .box-shearch
+    {
+        width: 350px;
+        height: 300px;
+        margin: 4px 10px ;
+        background-color: rgb(252, 254, 255);
+        border-radius: 0px 0px 8px 8px;
+        padding:2px;
+        box-shadow: 2px 2px 15px rgba(192, 192, 192, 0);
+    }
+
+}
